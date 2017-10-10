@@ -22,12 +22,15 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vvb-oO-zgc">
-                                <rect key="frame" x="95" y="318" width="184" height="30"/>
+                                <rect key="frame" x="103" y="310" width="168" height="46"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.16719448890938637" green="0.48956354509499278" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
-                                <color key="tintColor" red="1" green="0.12146364625386274" blue="0.214246970518845" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="0.2693216088630469" green="1" blue="0.36563530610817874" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <size key="titleShadowOffset" width="10000" height="0.0"/>
-                                <state key="normal" title="Color Change"/>
+                                <state key="normal" title="Color Change">
+                                    <color key="titleShadowColor" red="1" green="0.4583465814841321" blue="0.10938349759473009" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="secondMethod:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lHM-Yg-Mcg"/>
                                 </connections>
