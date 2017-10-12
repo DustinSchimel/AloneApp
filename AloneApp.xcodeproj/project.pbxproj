@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		793C65AE1F8FF9CB00AE1BC5 /* ColorTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793C65AD1F8FF9CB00AE1BC5 /* ColorTools.swift */; };
 		797D72571F8D3BB4000BD390 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 797D72551F8D3BB4000BD390 /* Main.storyboard */; };
 		797D725C1F8D3BB4000BD390 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 797D725A1F8D3BB4000BD390 /* LaunchScreen.storyboard */; };
 		79B0AD0B1F8FE3920080A0C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B0AD0A1F8FE3920080A0C6 /* AppDelegate.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		793C65AD1F8FF9CB00AE1BC5 /* ColorTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTools.swift; sourceTree = "<group>"; };
 		797D724E1F8D3BB4000BD390 /* AloneApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AloneApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		797D72561F8D3BB4000BD390 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		797D725B1F8D3BB4000BD390 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -37,6 +39,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		793C65AC1F8FF9A300AE1BC5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				793C65AD1F8FF9CB00AE1BC5 /* ColorTools.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		797D72451F8D3BB4000BD390 = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +66,7 @@
 		797D72501F8D3BB4000BD390 /* AloneApp */ = {
 			isa = PBXGroup;
 			children = (
+				793C65AC1F8FF9A300AE1BC5 /* Model */,
 				797D72641F8D4E3A000BD390 /* Controller */,
 				797D72631F8D4E2E000BD390 /* View */,
 				797D72651F8D4EFB000BD390 /* Resources */,
@@ -166,6 +177,7 @@
 				79B0AD0D1F8FE3950080A0C6 /* ViewController.swift in Sources */,
 				79B0AD0B1F8FE3920080A0C6 /* AppDelegate.swift in Sources */,
 				79B0AD171F8FF54B0080A0C6 /* SecondScreenController.swift in Sources */,
+				793C65AE1F8FF9CB00AE1BC5 /* ColorTools.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

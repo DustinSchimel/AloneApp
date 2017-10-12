@@ -10,6 +10,8 @@ import UIKit
 
 class ViewController: UIViewController
 {
+    private lazy var colorTool : ColorTools = ColorTools()
+    
     @IBOutlet weak var secondButton: UIButton!
     @IBOutlet weak var firstSwitch: UISwitch!
     @IBOutlet weak var secondSwitch: UISwitch!
@@ -27,11 +29,11 @@ class ViewController: UIViewController
         //view.backgroundColor = createRandomColor()
         
         
-        secondButton.backgroundColor = createRandomColor()
+        secondButton.backgroundColor = colorTool.createRandomColor()
         
-        view.backgroundColor = createRandomColor()
+        view.backgroundColor = colorTool.createRandomColor()
         
-        secondButton.setTitleColor(createRandomColor(), for: .normal)
+        secondButton.setTitleColor(colorTool.createRandomColor(), for: .normal)
     }
     
     @IBAction func switchMethod(_ sender: UISwitch)
@@ -63,26 +65,6 @@ class ViewController: UIViewController
         {
             secondSwitch.setOn(false, animated: true)
         }
-    }
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    private func createRandomColor() -> UIColor
-    {
-        let newColor :UIColor
-        let redValue = CGFloat (Double (arc4random_uniform(256)) / 255.00)
-        let greenValue = CGFloat (Double (arc4random() % 256) / 255.00)
-        let blueValue = CGFloat (drand48())
-        newColor = UIColor(red: redValue, green: greenValue, blue: blueValue, alpha: CGFloat(1.0))
-        
-        return newColor
     }
     
     override func viewDidLoad()

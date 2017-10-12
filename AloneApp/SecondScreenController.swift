@@ -8,7 +8,7 @@
 
 import UIKit
 
-public classSecondScreenController : UIVieweController
+public class SecondScreenController : UIViewController
 {
     
 }
