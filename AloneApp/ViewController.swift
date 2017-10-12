@@ -11,6 +11,8 @@ import UIKit
 class ViewController: UIViewController
 {
     @IBOutlet weak var secondButton: UIButton!
+    @IBOutlet weak var firstSwitch: UISwitch!
+    @IBOutlet weak var secondSwitch: UISwitch!
     
     @IBAction func secondMethod(_ sender: UIButton)
     {
@@ -31,6 +33,46 @@ class ViewController: UIViewController
         
         secondButton.setTitleColor(createRandomColor(), for: .normal)
     }
+    
+    @IBAction func switchMethod(_ sender: UISwitch)
+    {
+        if firstSwitch.isOn
+        {
+           view.backgroundColor = .green
+        }
+        else
+        {
+            view.backgroundColor = .red
+        }
+    }
+    
+    @IBAction func secondSwitchMethod(_ sender: UISwitch)
+    {
+        //var index = 0
+        //while (secondSwitch.isOn == false)
+        //{
+        //    index = index + 1
+        //    view.backgroundColor = createRandomColor()
+        //
+        //    if (index == 1)
+        //    {
+        //        secondSwitch.setOn(false, animated: true)
+        //    }
+        //}
+        if firstSwitch.isOn
+        {
+            secondSwitch.setOn(false, animated: true)
+        }
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
     private func createRandomColor() -> UIColor
     {
