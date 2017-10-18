@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		793C65AE1F8FF9CB00AE1BC5 /* ColorTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793C65AD1F8FF9CB00AE1BC5 /* ColorTools.swift */; };
 		793D01991F9539E500F6BF17 /* ThirdScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793D01981F9539E500F6BF17 /* ThirdScreenViewController.swift */; };
+		7972EE671F97DAA600707688 /* MediaPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7972EE661F97DAA600707688 /* MediaPageController.swift */; };
 		797D72571F8D3BB4000BD390 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 797D72551F8D3BB4000BD390 /* Main.storyboard */; };
 		797D725C1F8D3BB4000BD390 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 797D725A1F8D3BB4000BD390 /* LaunchScreen.storyboard */; };
 		79B0AD0B1F8FE3920080A0C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B0AD0A1F8FE3920080A0C6 /* AppDelegate.swift */; };
@@ -20,6 +21,7 @@
 /* Begin PBXFileReference section */
 		793C65AD1F8FF9CB00AE1BC5 /* ColorTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTools.swift; sourceTree = "<group>"; };
 		793D01981F9539E500F6BF17 /* ThirdScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdScreenViewController.swift; sourceTree = "<group>"; };
+		7972EE661F97DAA600707688 /* MediaPageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaPageController.swift; sourceTree = "<group>"; };
 		797D724E1F8D3BB4000BD390 /* AloneApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AloneApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		797D72561F8D3BB4000BD390 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		797D725B1F8D3BB4000BD390 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -92,6 +94,7 @@
 				79B0AD0A1F8FE3920080A0C6 /* AppDelegate.swift */,
 				79B0AD161F8FF54A0080A0C6 /* SecondScreenController.swift */,
 				793D01981F9539E500F6BF17 /* ThirdScreenViewController.swift */,
+				7972EE661F97DAA600707688 /* MediaPageController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -181,6 +184,7 @@
 				79B0AD0D1F8FE3950080A0C6 /* ViewController.swift in Sources */,
 				793D01991F9539E500F6BF17 /* ThirdScreenViewController.swift in Sources */,
 				79B0AD0B1F8FE3920080A0C6 /* AppDelegate.swift in Sources */,
+				7972EE671F97DAA600707688 /* MediaPageController.swift in Sources */,
 				79B0AD171F8FF54B0080A0C6 /* SecondScreenController.swift in Sources */,
 				793C65AE1F8FF9CB00AE1BC5 /* ColorTools.swift in Sources */,
 			);
